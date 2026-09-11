@@ -1,6 +1,13 @@
+# Python
 .venv/
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.egg-info/
+
+# OS / editor
 .DS_Store
+*.swp
 *.blend1
+
+# Large regenerable CAD artefacts are kept in output/ deliberately so the
+# print files can be handed to someone without a Python toolchain.
